@@ -1,9 +1,10 @@
+/* globals jQuery */
 import Ember from 'ember';
 
-RefillsExpandableComponent = Ember.Component.extend({
+var RefillsExpandableComponent = Ember.Component.extend({
   didInsertElement: function() {
     this.$(".expander-trigger").click(function() {
-      $(this).toggleClass("expander-hidden");
+      jQuery(this).toggleClass("expander-hidden");
     });
   }
 });

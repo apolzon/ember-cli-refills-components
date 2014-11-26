@@ -1,10 +1,11 @@
+/* globals jQuery */
 import Ember from 'ember';
 
-RefillsAccordionComponent = Ember.Component.extend({
+var RefillsAccordionComponent = Ember.Component.extend({
   didInsertElement: function() {
     this.$(".js-accordion-trigger").on("click", function() {
-      $(this).parent().find('.submenu').slideToggle('fast');
-      $(this).parent().toggleClass('is-expanded');
+      jQuery(this).parent().find('.submenu').slideToggle('fast');
+      jQuery(this).parent().toggleClass('is-expanded');
     });
   }
 });

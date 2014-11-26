@@ -1,6 +1,6 @@
 import Ember from 'ember';
 
-RefillsAccordionItemComponent = Ember.Component.extend({
+var RefillsAccordionItemComponent = Ember.Component.extend({
   tagName: "li"
 });
 

@@ -1,17 +1,17 @@
 import Ember from 'ember';
 
-RefillsCenteredNavigationComponent = Ember.Component.extend({
+var RefillsCenteredNavigationComponent = Ember.Component.extend({
   didInsertElement: function() {
-    menu = @$(".centered-navigation-menu");
-    menuToggle = @$(".centered-navigation-menu-button");
+    var menu = this.$(".centered-navigation-menu");
+    var menuToggle = this.$(".centered-navigation-menu-button");
 
     menuToggle.on("click", function() {
       menu.slideToggle(function() {
         if (menu.is(':hidden')) {
-          menu.removeAttr('style')
+          menu.removeAttr('style');
         }
       });
-    }
+    });
   }
 });
 
