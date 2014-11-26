@@ -1,5 +1,7 @@
 # Ember-cli-refills-components
 
+** This addon assumes you have bourbon's refills CSS included in your project **
+
 This README outlines the details of collaborating on this Ember addon.
 
 ## Installation

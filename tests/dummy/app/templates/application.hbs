@@ -34,4 +34,85 @@
 
 <hr/>
 
+<h2>Refills Acccordion</h2>
+{{#refills-accordion}}
+  {{#refills-accordion-item title="Accordion Item"}}
+    <ul class="submenu">
+      <li>
+        <a>Sub Item 1</a>
+      </li>
+      <li>
+        <a>Sub Item 2</a>
+      </li>
+    </ul>
+  {{/refills-accordion-item}}
+
+  {{#refills-accordion-item title="Another Item"}}
+    <ul class="submenu">
+      <li>
+        <a>Sub Item 1</a>
+      </li>
+      <li>
+        <a>Sub Item 2</a>
+      </li>
+    </ul>
+  {{/refills-accordion-item}}
+{{/refills-accordion}}
+<hr/>
+
+<h2>Refills Accordion Tabs</h2>
+{{#refills-accordion-tabs}}
+  {{#refills-accordion-tabs-item header="Tab Item"}}
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt pellentesque lorem, id suscipit dolor rutrum id. Morbi facilisis porta volutpat. Fusce adipiscing, mauris quis congue tincidunt, sapien purus suscipit odio, quis dictum odio tortor in sem. Ut sit amet libero nec orci mattis fringilla. Praesent eu ipsum in sapien tincidunt molestie sed ut magna. Nam accumsan dui at orci rhoncus pharetra tincidunt elit ullamcorper. Sed ac mauris ipsum. Nullam imperdiet sapien id purus pretium id aliquam mi ullamcorper.</p>
+  {{/refills-accordion-tabs-item}}
+
+  {{#refills-accordion-tabs-item header="Another Tab"}}
+      <p>Ut laoreet augue et neque pretium non sagittis nibh pulvinar. Etiam ornare tincidunt orci quis ultrices. Pellentesque ac sapien ac purus gravida ullamcorper. Duis rhoncus sodales lacus, vitae adipiscing tellus pharetra sed. Praesent bibendum lacus quis metus condimentum ac accumsan orci vulputate. Aenean fringilla massa vitae metus facilisis congue. Morbi placerat eros ac sapien semper pulvinar. Vestibulum facilisis, ligula a molestie venenatis, metus justo ullamcorper ipsum, congue aliquet dolor tortor eu neque. Sed imperdiet, nibh ut vestibulum tempor, nibh dui volutpat lacus, vel gravida magna justo sit amet quam. Quisque tincidunt ligula at nisl imperdiet sagittis. Morbi rutrum tempor arcu, non ultrices sem semper a. Aliquam quis sem mi.</p>
+  {{/refills-accordion-tabs-item}}
+
+  {{#refills-accordion-tabs-item header="Third"}}
+    <p>Donec mattis mauris gravida metus laoreet non rutrum sem viverra. Aenean nibh libero, viverra vel vestibulum in, porttitor ut sapien. Phasellus tempor lorem id justo ornare tincidunt. Nulla faucibus, purus eu placerat fermentum, velit mi iaculis nunc, bibendum tincidunt ipsum justo eu mauris. Nulla facilisi. Vestibulum vel lectus ac purus tempus suscipit nec sit amet eros. Nullam fringilla, enim eu lobortis dapibus, quam magna tincidunt nibh, sit amet imperdiet dolor justo congue turpis.</p>
+  {{/refills-accordion-tabs-item}}
+
+  {{#refills-accordion-tabs-item header="Last Item"}}
+    <p>Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Phasellus dui urna, mollis vel suscipit in, pharetra at ligula. Pellentesque a est vel est fermentum pellentesque sed sit amet dolor. Nunc in dapibus nibh. Aliquam erat volutpat. Phasellus vel dui sed nibh iaculis convallis id sit amet urna. Proin nec tellus quis justo consequat accumsan. Vivamus turpis enim, auctor eget placerat eget, aliquam ut sapien.</p>
+  {{/refills-accordion-tabs-item}}
+{{/refills-accordion-tabs}}
+<hr/>
+
+<h2>Refills Vertical Tabs</h2>
+{{#refills-vertical-tabs}}
+  {{#refills-vertical-tabs-item header="Item 1"}}
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt pellentesque lorem, id suscipit dolor rutrum id. Morbi facilisis porta volutpat. Fusce adipiscing, mauris quis congue tincidunt, sapien purus suscipit odio, quis dictum odio tortor in sem. Ut sit amet libero nec orci mattis fringilla. Praesent eu ipsum in sapien tincidunt molestie sed ut magna. Nam accumsan dui at orci rhoncus pharetra tincidunt elit ullamcorper. Sed ac mauris ipsum. Nullam imperdiet sapien id purus pretium id aliquam mi ullamcorper.</p>
+  {{/refills-vertical-tabs-item}}
+
+  {{#refills-vertical-tabs-item header="Second Guy"}}
+    <p>Hi dude</p>
+  {{/refills-vertical-tabs-item}}
+{{/refills-vertical-tabs}}
+<hr/>
+
+<h2>Refills Dropdown</h2>
+{{#refills-dropdown description="Custom Desc" prompt="Pick One"}}
+  {{refills-dropdown-item display_name="Item 1"}}
+  {{refills-dropdown-item display_name="Another Item"}}
+  {{refills-dropdown-item display_name="Last Item"}}
+{{/refills-dropdown}}
+<hr/>
+
+<h2>Refills Expandable</h2>
+{{#refills-expandable}}
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio mollitia fugiat facilis enim accusamus quisquam aut, repellendus incidunt quod optio facere labore illo numquam ipsum beatae vero debitis, fugit excepturi.</p>
+{{/refills-expandable}}
+<hr/>
+
+<h2>Refills Sliding Menu</h2>
+{{#refills-sliding-menu}}
+  <ul>
+    <li><a>Home</a></li>
+    <li><a>Somewhere</a></li>
+  </ul>
+{{/refills-sliding-menu}}
+<hr/>
+
 {{outlet}}
