@@ -1,3 +1,37 @@
 <h2 id='title'>Welcome to Ember.js</h2>
 
+<h3>Centered Navigation</h3>
+{{#refills-centered-navigation}}
+  <li class="nav-link"><a>Products</a></li>
+  <li class="nav-link"><a>About Us</a></li>
+  <li class="nav-link"><a>Contact</a></li>
+  <li class="nav-link logo">
+    <a class="logo">
+      <img src="images/placeholder_logo_3_dark.png" alt="Logo image">
+    </a>
+  </li>
+  <li class="nav-link"><a>Testimonials</a></li>
+  <li class="nav-link more"><a>More</a>
+    <ul class="submenu">
+      <li><a>Submenu Item</a></li>
+      <li><a>Another Item</a></li>
+      <li class="more"><a>Item with submenu</a>
+        <ul class="submenu">
+          <li><a>Sub-submenu Item</a></li>
+          <li><a>Another Item</a></li>
+        </ul>
+      </li>
+      <li class="more"><a>Another submenu</a>
+        <ul class="submenu">
+          <li><a>Sub-submenu</a></li>
+          <li><a>An Item</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li class="nav-link"><a>Sign up</a></li>
+{{/refills-centered-navigation}}
+
+<hr/>
+
 {{outlet}}
